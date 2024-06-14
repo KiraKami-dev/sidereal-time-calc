@@ -3,10 +3,8 @@ const { apparent } = require('astronomia').sidereal;
 const cors = require('cors');
 
 
-
-
 const app = express();
-const port = 3000; // Choose a suitable port
+const port = 3000; 
 
 // Middleware to parse JSON request bodies
 app.use(cors());
